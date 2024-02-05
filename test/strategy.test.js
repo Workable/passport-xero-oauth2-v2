@@ -11,7 +11,7 @@ describe('XeroStrategy', function() {
     },
     function() {});
   
-    it('should be named indeed', function() {
+    it('should be named xero', function() {
       expect(strategy.name).to.equal('xero');
     });
   });
