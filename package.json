@@ -1,0 +1,30 @@
+{
+  "name": "@workablehr/passport-xero-oauth2-v2",
+  "version": "0.0.1",
+  "description": "Passport strategy for Xero OAuth 2.0",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/Workable/passport-xero-oauth2-v2",
+  "scripts": {
+    "test": "nyc mocha",
+    "posttest": "nyc report --reporter=html --reporter=lcov --reporter=text-summary",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "passport",
+    "xero",
+    "oauth2"
+  ],
+  "author": {
+    "name": "Vaggelis Boutas"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "passport-oauth2": "^1.6.1"
+  },
+  "devDependencies": {
+    "chai": "^4.0.3",
+    "chai-passport-strategy": "^3.0.0",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0"
+  }
+}
