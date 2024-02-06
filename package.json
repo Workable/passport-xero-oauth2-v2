@@ -1,6 +1,6 @@
 {
-  "name": "@workablehr/passport-xero-oauth2-v2",
-  "version": "0.0.1",
+  "name": "@workablehr/passport-xero-oauth2",
+  "version": "0.0.2",
   "description": "Passport strategy for Xero OAuth 2.0",
   "main": "lib/index.js",
   "homepage": "https://github.com/Workable/passport-xero-oauth2-v2",
